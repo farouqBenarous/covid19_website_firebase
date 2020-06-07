@@ -1,25 +1,12 @@
 export default {
     "en-US": {
         app: {
-            title: "20x"
+            title: "Covid 19"
         },
         navbar: {
-            item_1: "Opportunity Risk Listing",
-            myprofile: "My Profile",
-            logout: "Log Out",
-            brand: {
-                alt: "20x logo"
-            },
-            manageaccount: "Manage Account",
-
-        },
-        footer: {
-            action: "Action",
-            tenants: "Tenants",
-            close: "Close",
-            ignore: "Ignore",
-            account: "Account",
-            users: "Users"
+            home: "home",
+            tests: "Tests",
+            about: "About",
         },
         pages: {
             home: {
@@ -27,43 +14,6 @@ export default {
             }
         },
 
-        errors: {
-            unexpected: "Unexpected error, try later.",
-            no_data: {
-                details: "There is no data available for this opportunity.",
-                tenant: "There is no data available for this tenant.",
-                alt: "No data"
-            }
-        },
-        upload: {
-            button: "Upload",
-            uploading: "Uploading",
-            error: "Unexpected error importing the file, try again.",
-            success: "CSV file imported with success.",
-            alt: "Upload button"
-        },
-        action: {
-            button: "Action"
-        },
-        ignore: {
-            button: "Action"
-        },
 
-        action_all: {
-            button: "Action All"
-        },
-        floating: {
-            alt: "Scroll to top"
-        },
-        notification: {
-            alt: "Action triggered"
-        },
-        variance: {
-            alt: "Variance of {value}"
-        },
-        back: {
-            button: "Back",
-            alt: "Go back to previous page"
-        },
     }
 };

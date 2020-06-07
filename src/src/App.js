@@ -4,19 +4,19 @@ import {BrowserRouter, Route, Switch} from "react-router-dom";
 import theme from "./theme";
 import GlobalStyles from "./GlobalStyles";
 import * as serviceWorker from "./serviceWorker";
-import Pace from "./shared/components/Pace";
+import Pace from "./Components/shared/components/Pace";
 
 import {IntlProvider, addLocaleData} from "react-intl";
 import en from "react-intl/locale-data/en";
 import messages from './translations/index';
-import flattenMessages from "../src/shared/functions/flattenMessages";
+import flattenMessages from "./Components/shared/functions/flattenMessages";
 
 addLocaleData([...en]);
 const locale = "en-US" ;
 
-const LoggedInComponent = lazy(() => import("./logged_in/components/Main"));
+const LoggedInComponent = lazy(() => import("./Components/logged_in/components/Main"));
 
-const LoggedOutComponent = lazy(() => import("./logged_out/components/Main"));
+const LoggedOutComponent = lazy(() => import("./Components/logged_out/components/Main"));
 
 
 function App() {
